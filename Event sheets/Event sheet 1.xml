@@ -3,6 +3,12 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <variable constant="0" name="work" sid="983823163449071" static="0" type="number">0</variable>
+        <variable constant="0" name="social" sid="225827076094267" static="0" type="number">0</variable>
+        <variable constant="0" name="cleanliness" sid="912841014820320" static="0" type="number">0</variable>
+        <variable constant="0" name="food" sid="281161880473773" static="0" type="number">0</variable>
+        <variable constant="0" name="fulfillment" sid="486535009881466" static="0" type="number">0</variable>
+        <variable constant="0" name="sleep" sid="536152450353246" static="0" type="number">0</variable>
         <event-block sid="371682292473829">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="879658418541219" type="System" />
@@ -20,6 +26,116 @@
                     <actions />
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="192276555391094">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="991954583647094" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">accept</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="199816519124161">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="399994479191555" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">reject</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="922539283801310">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="462161255840310" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">givesleep</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="653392194942105" type="System">
+                    <param id="0" name="Variable">sleep</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="669147319913624" type="displaysleepvalue">
+                    <param id="0" name="Text">sleep</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="774225173321192">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="632141396238583" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">giveclean</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="478090892019031" type="System">
+                    <param id="0" name="Variable">cleanliness</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="347758675317106" type="displaycleanvalue">
+                    <param id="0" name="Text">cleanliness</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="616499083214964">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="133596502711028" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">givefood</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="113514159709491" type="System">
+                    <param id="0" name="Variable">food</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="423445605355330" type="displayfoodvalue">
+                    <param id="0" name="Text">food</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="746928093939664">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="931924510381633" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">givesocial</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="637981516344291" type="System">
+                    <param id="0" name="Variable">social</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="124759888306172" type="displaysocialvalue">
+                    <param id="0" name="Text">social</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="820925787248395">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="329823578452203" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">givefulfill</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="660532488894159" type="System">
+                    <param id="0" name="Variable">fulfillment</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="798833126541710" type="displayfulfillvalue">
+                    <param id="0" name="Text">fulfillment</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

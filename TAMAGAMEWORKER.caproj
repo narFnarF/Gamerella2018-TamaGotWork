@@ -110,18 +110,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443382870377221" speed="5">
-                    <frame duration="1" hotspotX="0.623077" hotspotY="1.59206" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png">
-                        <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="0.624813" y="1" />
-                            <point x="1" y="0.0201899" />
-                            <point x="0.757148" y="1" />
-                            <point x="1" y="1" />
-                            <point x="0.624813" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.623077" hotspotY="1.59206" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -129,18 +118,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="660244627870751" speed="5">
-                    <frame duration="1" hotspotX="0.888462" hotspotY="1.49819" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png">
-                        <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="0.886862" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                            <point x="1" y="1" />
-                            <point x="0.886862" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.888462" hotspotY="1.49819" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -148,18 +126,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="748142595596981" speed="5">
-                    <frame duration="1" hotspotX="0.496154" hotspotY="1.64982" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png">
-                        <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="0.496154" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                            <point x="1" y="1" />
-                            <point x="0.496154" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.496154" hotspotY="1.64982" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -224,10 +191,25 @@
         <object-type name="social" sid="372169855270530">
             <plugin id="Text" />
         </object-type>
-        <object-type name="sleep5" sid="347318704780350">
+        <object-type name="fulfillment" sid="347318704780350">
             <plugin id="Text" />
         </object-type>
         <object-type name="CREDITS" sid="314329547233629">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="displaysleepvalue" sid="905423488613912">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="displaycleanvalue" sid="180611723426299">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="displayfoodvalue" sid="379485038875494">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="displaysocialvalue" sid="324337217498858">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="displayfulfillvalue" sid="747362886292572">
             <plugin id="Text" />
         </object-type>
     </object-folder>
