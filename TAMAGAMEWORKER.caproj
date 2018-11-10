@@ -14,6 +14,7 @@
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
     </used-plugins>
     <used-behaviors />
     <used-effects />
@@ -87,100 +88,100 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="560056253458035">
+        <object-type name="givesocial" sid="560056253458035">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="512644328389897" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.49273" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\Icons\noun_Social_1644916.png">
+                    <frame duration="1" hotspotX="0.496154" hotspotY="1.40794" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png">
                         <collision-poly>
-                            <point x="0.0166113" y="0.0226171" />
-                            <point x="0.5" y="0.00323102" />
-                            <point x="0.983389" y="0.0226171" />
-                            <point x="0.837209" y="0.820679" />
-                            <point x="0.5" y="0.820679" />
-                            <point x="0.00664451" y="0.972536" />
-                            <point x="0.111296" y="0.49273" />
+                            <point x="0" y="0" />
+                            <point x="0.496154" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.496154" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite2" sid="487648450288906">
+        <object-type name="givesleep" sid="487648450288906">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443382870377221" speed="5">
-                    <frame duration="1" hotspotX="0.530973" hotspotY="0.519142" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\Icons\noun_sleep_1673015.png">
+                    <frame duration="1" hotspotX="0.623077" hotspotY="1.59206" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png">
                         <collision-poly>
-                            <point x="0.145133" y="0.185299" />
-                            <point x="0.530973" y="0.48392" />
-                            <point x="0.79292" y="0.292496" />
-                            <point x="0.562832" y="0.519142" />
-                            <point x="0.861947" y="0.805513" />
-                            <point x="0.530973" y="0.882083" />
-                            <point x="0.00530973" y="0.973966" />
-                            <point x="0.0637168" y="0.519142" />
+                            <point x="0" y="0" />
+                            <point x="0.624813" y="1" />
+                            <point x="1" y="0.0201899" />
+                            <point x="0.757148" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0.624813" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite3" sid="505850866998237">
+        <object-type name="giveclean" sid="505850866998237">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="660244627870751" speed="5">
-                    <frame duration="1" hotspotX="0.594059" hotspotY="0.505512" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\Icons\noun_Shower_1771281.png">
+                    <frame duration="1" hotspotX="0.888462" hotspotY="1.49819" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png">
                         <collision-poly>
-                            <point x="0.19802" y="0.190551" />
-                            <point x="0.594059" y="0.0015748" />
-                            <point x="0.966337" y="0.209449" />
-                            <point x="0.914851" y="0.505512" />
-                            <point x="0.906931" y="0.754331" />
-                            <point x="0.594059" y="0.949606" />
-                            <point x="0.00594059" y="0.973228" />
-                            <point x="0.192079" y="0.505512" />
+                            <point x="0" y="0" />
+                            <point x="0.886862" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0.886862" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite4" sid="218703056519414">
+        <object-type name="givefood" sid="218703056519414">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="748142595596981" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.52782" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\Icons\noun_Food_2034606.png">
+                    <frame duration="1" hotspotX="0.496154" hotspotY="1.64982" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png">
                         <collision-poly>
-                            <point x="0.107973" y="0.172932" />
-                            <point x="0.5" y="0.00150376" />
-                            <point x="0.892027" y="0.172932" />
-                            <point x="0.991694" y="0.52782" />
-                            <point x="0.80897" y="0.807519" />
-                            <point x="0.5" y="0.903759" />
-                            <point x="0.00664451" y="0.974436" />
-                            <point x="0.00830565" y="0.52782" />
+                            <point x="0" y="0" />
+                            <point x="0.496154" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0.496154" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite5" sid="440634138173672">
+        <object-type name="givefulfill" sid="440634138173672">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="766631919102306" speed="5">
-                    <frame duration="1" hotspotX="0.559702" hotspotY="0.521341" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\Icons\noun_creative_1123073.png">
+                    <frame duration="1" hotspotX="0.742308" hotspotY="1.6065" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png">
                         <collision-poly>
-                            <point x="0.402985" y="0.393293" />
-                            <point x="0.559702" y="0.161585" />
-                            <point x="0.716418" y="0.393293" />
-                            <point x="0.802239" y="0.719512" />
-                            <point x="0.559702" y="0.888719" />
-                            <point x="0.00559701" y="0.974085" />
-                            <point x="0.367537" y="0.521341" />
+                            <point x="0.0931688" y="0.718852" />
+                            <point x="0.744145" y="0" />
+                            <point x="1" y="0.718852" />
+                            <point x="1" y="1" />
+                            <point x="0.744145" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite6" sid="765806571771563">
+        <object-type name="bossmessage" sid="765806571771563">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="183092357535797" speed="5">
@@ -194,6 +195,40 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="accept" sid="898036249732988">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="224466493154842" speed="5">
+                    <frame duration="1" hotspotX="-2.02632" hotspotY="-1.875" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\accept.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="reject" sid="250889371632431">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443968414705174" speed="5">
+                    <frame duration="1" hotspotX="-3.32174" hotspotY="-1.875" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\reject.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sleep" sid="994994839463070">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="clean" sid="116562229810045">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="food" sid="786474859108825">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="social" sid="372169855270530">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sleep5" sid="347318704780350">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="CREDITS" sid="314329547233629">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />

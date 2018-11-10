@@ -39,8 +39,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>981</x>
-                        <y>456</y>
+                        <x>997</x>
+                        <y>542</y>
                         <z>0</z>
                         <width>477</width>
                         <height>607</height>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="5">
+                <instance type="givesocial" uid="5">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -61,19 +61,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>604</x>
-                        <y>864</y>
+                        <x>632</x>
+                        <y>913</y>
                         <z>0</z>
-                        <width>150</width>
-                        <height>150</height>
+                        <width>117</width>
+                        <height>124</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.4927302</hotspotY>
+                        <hotspotX>0.496153831</hotspotX>
+                        <hotspotY>1.407942295</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="6">
+                <instance type="givesleep" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -83,19 +83,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>599</x>
-                        <y>377</y>
+                        <x>652</x>
+                        <y>511</y>
                         <z>0</z>
-                        <width>150</width>
-                        <height>150</height>
+                        <width>117</width>
+                        <height>124</height>
                         <depth>0</depth>
-                        <hotspotX>0.530973434</hotspotX>
-                        <hotspotY>0.519142449</hotspotY>
+                        <hotspotX>0.623076916</hotspotX>
+                        <hotspotY>1.592057705</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite3" uid="7">
+                <instance type="giveclean" uid="7">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -105,19 +105,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>608</x>
-                        <y>550</y>
+                        <x>681</x>
+                        <y>635</y>
                         <z>0</z>
-                        <width>120</width>
-                        <height>150</height>
+                        <width>117</width>
+                        <height>124</height>
                         <depth>0</depth>
-                        <hotspotX>0.594059408</hotspotX>
-                        <hotspotY>0.50551182</hotspotY>
+                        <hotspotX>0.88846153</hotspotX>
+                        <hotspotY>1.498194933</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="8">
+                <instance type="givefood" uid="8">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -127,19 +127,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>603</x>
-                        <y>707</y>
+                        <x>636</x>
+                        <y>801</y>
                         <z>0</z>
-                        <width>150</width>
-                        <height>150</height>
+                        <width>117</width>
+                        <height>124</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.527819574</hotspotY>
+                        <hotspotX>0.496153831</hotspotX>
+                        <hotspotY>1.649819493</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="9">
+                <instance type="givefulfill" uid="9">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -149,19 +149,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>602</x>
-                        <y>1012</y>
+                        <x>657</x>
+                        <y>1089</y>
                         <z>0</z>
-                        <width>120</width>
-                        <height>150</height>
+                        <width>117</width>
+                        <height>124</height>
                         <depth>0</depth>
-                        <hotspotX>0.559701502</hotspotX>
-                        <hotspotY>0.521341443</hotspotY>
+                        <hotspotX>0.742307663</hotspotX>
+                        <hotspotY>1.606498241</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite6" uid="10">
+                <instance type="bossmessage" uid="10">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -171,8 +171,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>944</x>
-                        <y>366</y>
+                        <x>954</x>
+                        <y>339</y>
                         <z>0</z>
                         <width>655</width>
                         <height>854</height>
@@ -202,6 +202,212 @@
                         <hotspotX>0.466836721</hotspotX>
                         <hotspotY>0.498281777</hotspotY>
                         <angle>-0.112357691</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="accept" uid="11">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1055</x>
+                        <y>601</y>
+                        <z>0</z>
+                        <width>114</width>
+                        <height>120</height>
+                        <depth>0</depth>
+                        <hotspotX>-2.026315689</hotspotX>
+                        <hotspotY>-1.875</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="reject" uid="13">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1293</x>
+                        <y>640</y>
+                        <z>0</z>
+                        <width>115</width>
+                        <height>120</height>
+                        <depth>0</depth>
+                        <hotspotX>-3.321739197</hotspotX>
+                        <hotspotY>-1.875</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sleep" uid="14">
+                    <properties>
+                        <text>SLEEP</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Courier New,-64,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>32</x>
+                        <y>336</y>
+                        <z>0</z>
+                        <width>230</width>
+                        <height>116</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="clean" uid="15">
+                    <properties>
+                        <text>CLEANLINESS</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Courier New,-64,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>27</x>
+                        <y>469</y>
+                        <z>0</z>
+                        <width>497</width>
+                        <height>136</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="food" uid="16">
+                    <properties>
+                        <text>FOOD</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Courier New,-64,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>38</x>
+                        <y>629</y>
+                        <z>0</z>
+                        <width>193</width>
+                        <height>120</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="social" uid="17">
+                    <properties>
+                        <text>SOCIAL</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Courier New,-64,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>34</x>
+                        <y>779</y>
+                        <z>0</z>
+                        <width>267</width>
+                        <height>121</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sleep5" uid="18">
+                    <properties>
+                        <text>FULFILLMENT</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Courier New,-64,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>37</x>
+                        <y>925</y>
+                        <z>0</z>
+                        <width>426</width>
+                        <height>118</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="CREDITS" uid="12">
+                    <properties>
+                        <text>CREDITS</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Courier New,-48,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1689</x>
+                        <y>1014</y>
+                        <z>0</z>
+                        <width>270</width>
+                        <height>86</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
