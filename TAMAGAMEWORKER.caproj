@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>TAMAGAMEWORKER</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://jeka.games</author-website>
+    <app-id>jeka.games</app-id>
+    <unique-id>882xt0r3fn2t</unique-id>
+    <saved-with-version>26500</saved-with-version>
+    <used-plugins>
+        <plugin author="Yann Granjon" id="JSON" version="1">JSON</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1920</width>
+        <height>1080</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type global="1" name="JSON" sid="412236783497792">
+            <plugin id="JSON" />
+        </object-type>
+        <object-type name="Keyboard" sid="387597658001799">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Mouse" sid="382043700345538">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="tamagotcha" sid="188344699213731">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="592913047076760" speed="5">
+                    <frame duration="1" hotspotX="0.56203" hotspotY="0.413842" original-source="C:\Users\jessr\Documents\JEKA FILES\GAMERella 2018 raw assets and psds\tamagotchi egg.png">
+                        <collision-poly>
+                            <point x="0.0037594" y="0.587571" />
+                            <point x="0.56203" y="0.079096" />
+                            <point x="0.964286" y="0.704802" />
+                            <point x="0.979323" y="0.413842" />
+                            <point x="0.56203" y="0.995763" />
+                            <point x="0.0206767" y="0.413842" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="title" sid="651690244727422">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="728727527081388" speed="5">
+                    <frame duration="1" hotspotX="0.466837" hotspotY="0.498282" original-source="C:\Users\jessr\Documents\JEKA FILES\GAMERella 2018 raw assets and psds\tamagameworker title.png">
+                        <collision-poly>
+                            <point x="0.0420918" y="0.580756" />
+                            <point x="0.466837" y="0.00687285" />
+                            <point x="0.9375" y="0.333333" />
+                            <point x="0.96301" y="0.498282" />
+                            <point x="0.961735" y="0.793814" />
+                            <point x="0.466837" y="0.75945" />
+                            <point x="0.0420918" y="0.498282" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="560056253458035">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="512644328389897" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.49273" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\Icons\noun_Social_1644916.png">
+                        <collision-poly>
+                            <point x="0.0166113" y="0.0226171" />
+                            <point x="0.5" y="0.00323102" />
+                            <point x="0.983389" y="0.0226171" />
+                            <point x="0.837209" y="0.820679" />
+                            <point x="0.5" y="0.820679" />
+                            <point x="0.00664451" y="0.972536" />
+                            <point x="0.111296" y="0.49273" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="487648450288906">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443382870377221" speed="5">
+                    <frame duration="1" hotspotX="0.530973" hotspotY="0.519142" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\Icons\noun_sleep_1673015.png">
+                        <collision-poly>
+                            <point x="0.145133" y="0.185299" />
+                            <point x="0.530973" y="0.48392" />
+                            <point x="0.79292" y="0.292496" />
+                            <point x="0.562832" y="0.519142" />
+                            <point x="0.861947" y="0.805513" />
+                            <point x="0.530973" y="0.882083" />
+                            <point x="0.00530973" y="0.973966" />
+                            <point x="0.0637168" y="0.519142" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="505850866998237">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="660244627870751" speed="5">
+                    <frame duration="1" hotspotX="0.594059" hotspotY="0.505512" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\Icons\noun_Shower_1771281.png">
+                        <collision-poly>
+                            <point x="0.19802" y="0.190551" />
+                            <point x="0.594059" y="0.0015748" />
+                            <point x="0.966337" y="0.209449" />
+                            <point x="0.914851" y="0.505512" />
+                            <point x="0.906931" y="0.754331" />
+                            <point x="0.594059" y="0.949606" />
+                            <point x="0.00594059" y="0.973228" />
+                            <point x="0.192079" y="0.505512" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="218703056519414">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="748142595596981" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.52782" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\Icons\noun_Food_2034606.png">
+                        <collision-poly>
+                            <point x="0.107973" y="0.172932" />
+                            <point x="0.5" y="0.00150376" />
+                            <point x="0.892027" y="0.172932" />
+                            <point x="0.991694" y="0.52782" />
+                            <point x="0.80897" y="0.807519" />
+                            <point x="0.5" y="0.903759" />
+                            <point x="0.00664451" y="0.974436" />
+                            <point x="0.00830565" y="0.52782" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="440634138173672">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="766631919102306" speed="5">
+                    <frame duration="1" hotspotX="0.559702" hotspotY="0.521341" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\Icons\noun_creative_1123073.png">
+                        <collision-poly>
+                            <point x="0.402985" y="0.393293" />
+                            <point x="0.559702" y="0.161585" />
+                            <point x="0.716418" y="0.393293" />
+                            <point x="0.802239" y="0.719512" />
+                            <point x="0.559702" y="0.888719" />
+                            <point x="0.00559701" y="0.974085" />
+                            <point x="0.367537" y="0.521341" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="765806571771563">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="183092357535797" speed="5">
+                    <frame duration="1" hotspotX="-0.430534" hotspotY="0.381733" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\telephone.png">
+                        <collision-poly>
+                            <point x="0.70687" y="0.00117096" />
+                            <point x="0.998473" y="0.381733" />
+                            <point x="0.992366" y="0.981265" />
+                            <point x="0.00152672" y="0.381733" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="1" />
+        <global-instance type="Mouse" uid="2" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

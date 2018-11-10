@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="371682292473829">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="879658418541219" type="System" />
+            </conditions>
+            <actions>
+                <action id="60" name="LoadJSON" sid="503996926390624" type="JSON">
+                    <param id="0" name="JSON">&quot;&quot;</param>
+                    <param id="1" name="Reference point">0</param>
+                    <param id="2" name="Key {n}"></param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="691952195493181">
+                    <conditions />
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
