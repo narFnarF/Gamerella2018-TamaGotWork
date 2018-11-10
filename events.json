@@ -1,23 +1,24 @@
 [
   {
-    "title": "test 1",
-    "text": "1111 asdfalksdj flasjd flkajsd flkaj sdflja sdflja sldkfja sldfj sldfa\nsdfa\nsdf lkajsd flkajsd flkajs dfla\nsdf\nasd flkkajsd flkajs dflkasd\nf\nasdf\nasd\nf klajsdfj alksdjflkadjsf",
-    "sleep": "2",
-    "food": "-1",
-    "anim": "sleep"
+    "text": "Oh Tama, I almost forgot! Please have your video game character done before lunch. You’re the best.",
+    "sleep": "0",
+    "fulfillment": 1,
+    "clean": 0,
+    "social": 0,
+    "deadline": 2,
+    "food": "0",
+    "anim DO": "poker face",
+    "anim DONT": "stressed"
   },
   {
-    "title": "bla 2",
-    "text": "22222 asdfalksdj flasjd flkajsd flkaj sdflja sdflja sldkfja sldfj sldfa\nsdfa\nsdf lkajsd flkajsd flkajs dfla\nsdf\nasd flkkajsd flkajs dflkasd\nf\nasdf\nasd\nf klajsdfj alksdjflkadjsf",
-    "social": "3",
-    "fulfillment": "4",
-    "anim": "party"
-  },
-  {
-    "title": "bla 3",
-    "text": "333 loremipsum dolor sit amet yo mamma",
-    "clean": "-1",
-    "food": "1",
-    "anim": "shower"
+    "text": "Oh Tama, I almost forgot! Please have your video game character done before lunch. You’re the best.",
+    "sleep": "0",
+    "fulfillment": 1,
+    "clean": 0,
+    "social": 0,
+    "deadline": 2,
+    "food": "0",
+    "anim DO": "poker face",
+    "anim DONT": "stressed"
   }
 ]
