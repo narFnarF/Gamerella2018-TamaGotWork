@@ -41,6 +41,10 @@
                     <param id="0" name="Variable">fulfillment</param>
                     <param id="1" name="Value">4</param>
                 </action>
+                <action id="0" name="Call function" sid="944581313446374" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="995814114509860">
@@ -175,6 +179,22 @@
                     <param id="1" name="From">1</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="155439452747177">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="738112292281361" type="System">
+                            <param id="0" name="Variable">work</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="158054632292655" type="System">
+                            <param id="0" name="Layout">lose</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="922539283801310">
             <conditions>
@@ -368,6 +388,9 @@
                         <action id="0" name="Set text" sid="803473849277087" type="SO">
                             <param id="0" name="Text">&quot;SO &quot; &amp; JSON.Value(0,randomEventNo,&quot;social&quot;)</param>
                         </action>
+                        <action id="0" name="Set text" sid="926725574601251" type="deadline">
+                            <param id="0" name="Text">&quot;deadline:&quot; &amp; deadline</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -413,6 +436,9 @@
                 </action>
                 <action id="0" name="Set text" sid="352093700535812" type="displayfulfillvalue">
                     <param id="0" name="Text">fulfillment</param>
+                </action>
+                <action id="0" name="Set text" sid="313694347332308" type="deadline">
+                    <param id="0" name="Text">&quot;deadline:&quot; &amp; deadline</param>
                 </action>
             </actions>
         </event-block>
@@ -525,6 +551,40 @@
                 <action id="4" name="Set animation" sid="199228447505826" type="Sprite">
                     <param id="0" name="Animation">JSON.Value(0,randomEventNo,&quot;anim DO&quot;)</param>
                     <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="707613159474372">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="354946217172044" type="System">
+                    <param id="0" name="Variable">cleanliness</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="784352084802024" type="System">
+                    <param id="0" name="Variable">food</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="132399070986196" type="System">
+                    <param id="0" name="Variable">fulfillment</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="339179468495869" type="System">
+                    <param id="0" name="Variable">sleep</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="466727037032665" type="System">
+                    <param id="0" name="Variable">social</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="529221112162359" type="System">
+                    <param id="0" name="Layout">lose</param>
                 </action>
             </actions>
         </event-block>

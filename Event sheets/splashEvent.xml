@@ -3,6 +3,14 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>splashEvent</name>
     <events>
+        <event-block sid="337277480874417">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="177940386649826" type="System" />
+            </conditions>
+            <actions>
+                <action id="-21" name="Reset global variables" sid="358568857373606" type="System" />
+            </actions>
+        </event-block>
         <event-block sid="959560210832310">
             <conditions>
                 <condition id="0" name="On click" sid="417815572301649" type="Mouse">

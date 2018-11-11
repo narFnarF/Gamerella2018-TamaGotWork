@@ -335,6 +335,9 @@
         <object-type name="endcreditslink" sid="662246654482524">
             <plugin id="Text" />
         </object-type>
+        <object-type name="deadline" sid="412698971358061">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

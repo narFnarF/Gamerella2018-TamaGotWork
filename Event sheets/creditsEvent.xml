@@ -3,6 +3,14 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>creditsEvent</name>
     <events>
+        <event-block sid="325374024835484">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="923046174341487" type="System" />
+            </conditions>
+            <actions>
+                <action id="-21" name="Reset global variables" sid="384134036864381" type="System" />
+            </actions>
+        </event-block>
         <event-block sid="586152751159918">
             <conditions>
                 <condition id="0" name="On key pressed" sid="879739227694106" type="Keyboard">

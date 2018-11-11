@@ -3,6 +3,14 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>loseEvent</name>
     <events>
+        <event-block sid="875674984946081">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="412061471564733" type="System" />
+            </conditions>
+            <actions>
+                <action id="-21" name="Reset global variables" sid="787014590508085" type="System" />
+            </actions>
+        </event-block>
         <event-block sid="776535463965258">
             <conditions>
                 <condition id="0" name="On key pressed" sid="278545089130014" type="Keyboard">
