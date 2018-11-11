@@ -108,12 +108,12 @@
                     <param id="0" name="Name">&quot;tallyWorkCost&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
-                <action id="0" name="Call function" sid="264588034399657" type="Function">
-                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
-                    <param id="1" name="Parameter {n}"></param>
-                </action>
                 <action id="0" name="Call function" sid="772658555111816" type="Function">
                     <param id="0" name="Name">&quot;loadEvent&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="264588034399657" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
                 <action id="-11" name="Subtract from" sid="346164167053502" type="System">
@@ -159,10 +159,6 @@
                     <param id="0" name="Variable">fulfillment</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="0" name="Call function" sid="598017375993603" type="Function">
-                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
-                    <param id="1" name="Parameter {n}"></param>
-                </action>
                 <action id="0" name="Call function" sid="409530783687153" type="Function">
                     <param id="0" name="Name">&quot;loadEvent&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
@@ -177,6 +173,10 @@
                 <action id="4" name="Set animation" sid="499180408472355" type="Tama">
                     <param id="0" name="Animation">JSON.Value(0,randomEventNo,&quot;anim DONT&quot;)</param>
                     <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Call function" sid="598017375993603" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
             <sub-events>
@@ -209,10 +209,6 @@
                     <param id="0" name="Variable">sleep</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="0" name="Call function" sid="814711452233991" type="Function">
-                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
-                    <param id="1" name="Parameter {n}"></param>
-                </action>
                 <action id="0" name="Set text" sid="669147319913624" type="displaysleepvalue">
                     <param id="0" name="Text">sleep</param>
                 </action>
@@ -223,6 +219,10 @@
                 <action id="4" name="Set animation" sid="910534966158708" type="Tama">
                     <param id="0" name="Animation">&quot;sleep&quot;</param>
                     <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Call function" sid="814711452233991" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
         </event-block>
@@ -239,10 +239,6 @@
                     <param id="0" name="Variable">cleanliness</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="0" name="Call function" sid="713962117607676" type="Function">
-                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
-                    <param id="1" name="Parameter {n}"></param>
-                </action>
                 <action id="0" name="Set text" sid="347758675317106" type="displaycleanvalue">
                     <param id="0" name="Text">cleanliness</param>
                 </action>
@@ -253,6 +249,10 @@
                 <action id="4" name="Set animation" sid="833339379262848" type="Tama">
                     <param id="0" name="Animation">&quot;shower&quot;</param>
                     <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Call function" sid="713962117607676" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
         </event-block>
@@ -269,10 +269,6 @@
                     <param id="0" name="Variable">food</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="0" name="Call function" sid="310817706216124" type="Function">
-                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
-                    <param id="1" name="Parameter {n}"></param>
-                </action>
                 <action id="0" name="Set text" sid="423445605355330" type="displayfoodvalue">
                     <param id="0" name="Text">food</param>
                 </action>
@@ -283,6 +279,10 @@
                 <action id="4" name="Set animation" sid="901526884776214" type="Tama">
                     <param id="0" name="Animation">&quot;food&quot;</param>
                     <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Call function" sid="310817706216124" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
         </event-block>
@@ -299,10 +299,6 @@
                     <param id="0" name="Variable">social</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="0" name="Call function" sid="660893978273773" type="Function">
-                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
-                    <param id="1" name="Parameter {n}"></param>
-                </action>
                 <action id="0" name="Set text" sid="124759888306172" type="displaysocialvalue">
                     <param id="0" name="Text">social</param>
                 </action>
@@ -313,6 +309,10 @@
                 <action id="4" name="Set animation" sid="292059742906270" type="Tama">
                     <param id="0" name="Animation">&quot;veryhappy&quot;</param>
                     <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Call function" sid="660893978273773" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
         </event-block>
@@ -329,10 +329,6 @@
                     <param id="0" name="Variable">fulfillment</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="0" name="Call function" sid="131147487779595" type="Function">
-                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
-                    <param id="1" name="Parameter {n}"></param>
-                </action>
                 <action id="0" name="Set text" sid="798833126541710" type="displayfulfillvalue">
                     <param id="0" name="Text">fulfillment</param>
                 </action>
@@ -343,6 +339,10 @@
                 <action id="4" name="Set animation" sid="282645190983654" type="Tama">
                     <param id="0" name="Animation">&quot;veryhappy&quot;</param>
                     <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Call function" sid="131147487779595" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
         </event-block>
@@ -507,6 +507,10 @@
                         </action>
                         <action id="0" name="Call function" sid="461038879469317" type="Function">
                             <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="0" name="Call function" sid="842853874365165" type="Function">
+                            <param id="0" name="Name">&quot;loadEvent&quot;</param>
                             <param id="1" name="Parameter {n}"></param>
                         </action>
                         <action id="-16" name="Set opacity" sid="456715929191759" type="angryWork">
