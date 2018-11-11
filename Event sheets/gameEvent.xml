@@ -174,7 +174,7 @@
                 <action id="-16" name="Set opacity" sid="846356188458888" type="angryWork">
                     <param id="0" name="Opacity">angryWorkOpacity</param>
                 </action>
-                <action id="4" name="Set animation" sid="499180408472355" type="Sprite">
+                <action id="4" name="Set animation" sid="499180408472355" type="Tama">
                     <param id="0" name="Animation">JSON.Value(0,randomEventNo,&quot;anim DONT&quot;)</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -220,7 +220,7 @@
                     <param id="0" name="Name">&quot;worsePerformance&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
-                <action id="4" name="Set animation" sid="910534966158708" type="Sprite">
+                <action id="4" name="Set animation" sid="910534966158708" type="Tama">
                     <param id="0" name="Animation">&quot;sleep&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -250,7 +250,7 @@
                     <param id="0" name="Name">&quot;worsePerformance&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
-                <action id="4" name="Set animation" sid="833339379262848" type="Sprite">
+                <action id="4" name="Set animation" sid="833339379262848" type="Tama">
                     <param id="0" name="Animation">&quot;shower&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -280,7 +280,7 @@
                     <param id="0" name="Name">&quot;worsePerformance&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
-                <action id="4" name="Set animation" sid="901526884776214" type="Sprite">
+                <action id="4" name="Set animation" sid="901526884776214" type="Tama">
                     <param id="0" name="Animation">&quot;food&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -310,7 +310,7 @@
                     <param id="0" name="Name">&quot;worsePerformance&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
-                <action id="4" name="Set animation" sid="292059742906270" type="Sprite">
+                <action id="4" name="Set animation" sid="292059742906270" type="Tama">
                     <param id="0" name="Animation">&quot;party&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -340,7 +340,7 @@
                     <param id="0" name="Name">&quot;worsePerformance&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
-                <action id="4" name="Set animation" sid="282645190983654" type="Sprite">
+                <action id="4" name="Set animation" sid="282645190983654" type="Tama">
                     <param id="0" name="Animation">&quot;veryhappy&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -440,6 +440,21 @@
                 <action id="0" name="Set text" sid="313694347332308" type="deadline">
                     <param id="0" name="Text">&quot;deadline:&quot; &amp; deadline</param>
                 </action>
+                <action id="5" name="Set frame" sid="597957640909696" type="socialbar">
+                    <param id="0" name="Frame number">social</param>
+                </action>
+                <action id="5" name="Set frame" sid="458581233149224" type="sleepbar">
+                    <param id="0" name="Frame number">sleep</param>
+                </action>
+                <action id="5" name="Set frame" sid="104034218898412" type="foodbar">
+                    <param id="0" name="Frame number">food</param>
+                </action>
+                <action id="5" name="Set frame" sid="994246159738582" type="cleanbar">
+                    <param id="0" name="Frame number">cleanliness</param>
+                </action>
+                <action id="5" name="Set frame" sid="779454098816627" type="fulfillmentbar">
+                    <param id="0" name="Frame number">fulfillment</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="490177117273856">
@@ -497,7 +512,7 @@
                         <action id="-16" name="Set opacity" sid="456715929191759" type="angryWork">
                             <param id="0" name="Opacity">angryWorkOpacity</param>
                         </action>
-                        <action id="4" name="Set animation" sid="755857022508601" type="Sprite">
+                        <action id="4" name="Set animation" sid="755857022508601" type="Tama">
                             <param id="0" name="Animation">JSON.Value(0,randomEventNo,&quot;anim DONT&quot;)</param>
                             <param id="1" name="From">1</param>
                         </action>
@@ -548,7 +563,7 @@
                     <param id="0" name="Variable">social</param>
                     <param id="1" name="Value">JSON.Value(0,randomEventNo,&quot;social&quot;)</param>
                 </action>
-                <action id="4" name="Set animation" sid="199228447505826" type="Sprite">
+                <action id="4" name="Set animation" sid="199228447505826" type="Tama">
                     <param id="0" name="Animation">JSON.Value(0,randomEventNo,&quot;anim DO&quot;)</param>
                     <param id="1" name="From">1</param>
                 </action>
