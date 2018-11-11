@@ -2,5 +2,28 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>loseEvent</name>
-    <events />
+    <events>
+        <event-block sid="776535463965258">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="278545089130014" type="Keyboard">
+                    <param id="0" name="Key">82</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="737258087948261" type="System">
+                    <param id="0" name="Layout">splash</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="377079049168781">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="547671309901139" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="108796617529355" type="endGameText">
+                    <param id="0" name="Text">choose(&quot;ending 1&quot;, &quot;ending 2&quot;, &quot;ending 3&quot;, &quot;ending 4&quot;)</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

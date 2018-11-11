@@ -28,7 +28,106 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="title" uid="33">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>818</x>
+                        <y>221</y>
+                        <z>0</z>
+                        <width>1222</width>
+                        <height>258</height>
+                        <depth>0</depth>
+                        <hotspotX>0.466836721</hotspotX>
+                        <hotspotY>0.498281777</hotspotY>
+                        <angle>-0.065480761</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ClickToStart" uid="34">
+                    <properties>
+                        <text>[Click To Start]</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Courier New,-64,700,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>553</x>
+                        <y>361</y>
+                        <z>0</z>
+                        <width>624</width>
+                        <height>136</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tamagotcha" uid="35">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1548</x>
+                        <y>758</y>
+                        <z>0</z>
+                        <width>228</width>
+                        <height>274</height>
+                        <depth>0</depth>
+                        <hotspotX>0.562030077</hotspotX>
+                        <hotspotY>0.413841814</hotspotY>
+                        <angle>-0.045402139</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text" uid="49">
+                    <properties>
+                        <text>[INSTRUCTIONS]</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Courier New,-42.8,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>132</x>
+                        <y>482</y>
+                        <z>0</z>
+                        <width>1251</width>
+                        <height>427</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
     </layers>
