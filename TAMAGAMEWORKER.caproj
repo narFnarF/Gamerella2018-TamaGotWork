@@ -294,6 +294,20 @@
         <object-type name="Text" sid="175640433491796">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Sprite" sid="977996806097348">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="1" name="happy" pingpong="0" repeatcount="1" repeatto="0" sid="593053754875669" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\happy1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\happy2.png" />
+                </animation>
+                <animation framecount="3" loop="1" name="sad" pingpong="0" repeatcount="1" repeatto="0" sid="678250655561464" speed="3">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\sad2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
