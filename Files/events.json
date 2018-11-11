@@ -110,7 +110,7 @@
     "anim DONT": "stressed"
   },
   {
-    "text": "Hello Tama, \n\nRegarding the coding changes we discussed in your last performance meeting, we’re going to need you to get does done first thing tomorrow morning. I’m counting on you, the whole team is! \n\nSincerely, Aki.     ",
+    "text": "Hello Tama, \n\nRegarding the coding changes we discussed in your last performance meeting, we’re going to need you to get those done first thing tomorrow morning. I’m counting on you, the whole team is! \n\nSincerely, Aki.     ",
     "sleep": -3,
     "fulfillment": 3,
     "clean": -1,
