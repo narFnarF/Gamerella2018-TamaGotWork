@@ -1,7 +1,7 @@
 [
   {
     "text": "Oh Tama, I almost forgot! Please have your video game character done before lunch. You’re the best.",
-    "sleep": "0",
+    "sleep": 0,
     "fulfillment": 1,
     "clean": 0,
     "social": 0,
@@ -11,13 +11,24 @@
     "anim DONT": "stressed"
   },
   {
-    "text": "Oh Tama, I almost forgot! Please have your video game character done before lunch. You’re the best.",
-    "sleep": "0",
+    "text": "Hi there! This is event number 2!",
+    "sleep": 0,
     "fulfillment": 1,
     "clean": 0,
     "social": 0,
     "deadline": 2,
-    "food": "0",
+    "food": 0,
+    "anim DO": "poker face",
+    "anim DONT": "stressed"
+  },
+  {
+    "text": "Whaaat?! Event number 3???!!",
+    "sleep": 0,
+    "fulfillment": 1,
+    "clean": 0,
+    "social": 0,
+    "deadline": 2,
+    "food": 0,
     "anim DO": "poker face",
     "anim DONT": "stressed"
   }
