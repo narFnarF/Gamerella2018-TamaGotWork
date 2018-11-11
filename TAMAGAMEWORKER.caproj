@@ -245,10 +245,16 @@
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
+        <layout>game.xml</layout>
+        <layout>lose.xml</layout>
+        <layout>splash.xml</layout>
+        <layout>credits.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>gameEvent.xml</event-sheet>
+        <event-sheet>loseEvent.xml</event-sheet>
+        <event-sheet>splashEvent.xml</event-sheet>
+        <event-sheet>creditsEvent.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="1" />
