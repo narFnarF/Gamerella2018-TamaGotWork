@@ -98,11 +98,38 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>930</x>
-                        <y>688</y>
+                        <x>994</x>
+                        <y>622</y>
                         <z>0</z>
                         <width>608</width>
                         <height>106</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="endcreditslink" uid="51">
+                    <properties>
+                        <text>[CREDITS]</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Courier New,-48,700,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>995</x>
+                        <y>704</y>
+                        <z>0</z>
+                        <width>269</width>
+                        <height>123</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

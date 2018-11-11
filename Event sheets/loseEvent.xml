@@ -21,7 +21,21 @@
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="108796617529355" type="endGameText">
-                    <param id="0" name="Text">choose(&quot;ending 1&quot;, &quot;ending 2&quot;, &quot;ending 3&quot;, &quot;ending 4&quot;)</param>
+                    <param id="0" name="Text">choose(&quot;Oh noooooo! You overworked yourself and burned out! It can be hard to say no when there&apos;s so much pressure to crunch. Try not to spread yourself too thin by saying yes to every single demand. Some requests just aren’t worth your energy. Your boss needs to respect your time! Don’t be afraid to say no.&quot;, &quot;Ouch! Don’t underestimate self care in your work routine, everybody needs it. Doing things for yourself actually helps you be happier and more creative. You&apos;re worth so much more than your productivity &lt;3!&quot;, &quot;Yikes! It can be so hard to keep work-life balance in this industry. Okay, so you were experiencing some burnout symptoms, but you decided to take some time off. You&apos;re more than just your work -- so good job on taking some time for yourself to recharge and re-evaluate. Be kind to yourself and take the breaks that you need!&quot;, &quot;Sleep-deprived, hungry, a little smelly -- it turns out that crunch can be really rough on your body and your mind. It might be time to think about just how much your work in this industry is asking of you. Are others experiencing this too? Maybe you can work together to make some changes to keep you happy, healthy, and creative!&quot;)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="458295882186735">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="263241426327282" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">endcreditslink</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="496427206820128" type="System">
+                    <param id="0" name="Layout">credits</param>
                 </action>
             </actions>
         </event-block>
