@@ -3,9 +3,10 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <variable constant="0" name="deadline" sid="106578298923645" static="0" type="number">0</variable>
         <variable constant="0" name="work" sid="983823163449071" static="0" type="number">0</variable>
-        <variable constant="0" name="social" sid="225827076094267" static="0" type="number">0</variable>
         <variable constant="0" name="cleanliness" sid="912841014820320" static="0" type="number">0</variable>
+        <variable constant="0" name="social" sid="225827076094267" static="0" type="number">0</variable>
         <variable constant="0" name="food" sid="281161880473773" static="0" type="number">0</variable>
         <variable constant="0" name="fulfillment" sid="486535009881466" static="0" type="number">0</variable>
         <variable constant="0" name="sleep" sid="536152450353246" static="0" type="number">0</variable>
@@ -14,18 +15,65 @@
                 <condition id="-2" name="On start of layout" sid="879658418541219" type="System" />
             </conditions>
             <actions>
-                <action id="60" name="LoadJSON" sid="503996926390624" type="JSON">
-                    <param id="0" name="JSON">&quot;&quot;</param>
+                <action id="-9" name="Set value" sid="361840695107937" type="System">
+                    <param id="0" name="Variable">work</param>
+                    <param id="1" name="Value">100</param>
+                </action>
+                <action id="-9" name="Set value" sid="139521597802856" type="System">
+                    <param id="0" name="Variable">cleanliness</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+                <action id="-9" name="Set value" sid="966693688805792" type="System">
+                    <param id="0" name="Variable">food</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+                <action id="-9" name="Set value" sid="570563910414584" type="System">
+                    <param id="0" name="Variable">sleep</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+                <action id="-9" name="Set value" sid="634164197937283" type="System">
+                    <param id="0" name="Variable">social</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+                <action id="-9" name="Set value" sid="688065057523770" type="System">
+                    <param id="0" name="Variable">fulfillment</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="436173182685143">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="610280648729902" type="System" />
+            </conditions>
+            <actions>
+                <action id="1" name="Request project file" sid="797428083026511" type="AJAX">
+                    <param id="0" name="Tag">&quot;eventlist&quot;</param>
+                    <param id="1" name="File">events.json</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Anything JSON dependent has to happen after AJAX loads the JSON file in the next event ;)</comment>
+        <event-block sid="189160140265276">
+            <conditions>
+                <condition id="0" name="On completed" sid="929516950525353" type="AJAX">
+                    <param id="0" name="Tag">&quot;eventlist&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="60" name="LoadJSON" sid="766568525239524" type="JSON">
+                    <param id="0" name="JSON">AJAX.LastData</param>
                     <param id="1" name="Reference point">0</param>
                     <param id="2" name="Key {n}"></param>
                 </action>
+                <action id="0" name="Call function" sid="532857499951357" type="Function">
+                    <param id="0" name="Name">&quot;loadEvent&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="563713130967236" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
             </actions>
-            <sub-events>
-                <event-block sid="691952195493181">
-                    <conditions />
-                    <actions />
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="192276555391094">
             <conditions>
@@ -64,6 +112,42 @@
                     <param id="0" name="Text">sleep</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="225194106671083">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="751053829709956" type="System">
+                            <param id="0" name="Variable">deadline</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="372040982903461" type="System">
+                            <param id="0" name="Variable">deadline</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="359811648481155">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="376216246238558" type="System">
+                            <param id="0" name="Variable">deadline</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="224783698800759" type="System">
+                            <param id="0" name="Variable">work</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                        <action id="0" name="Call function" sid="339520435694339" type="Function">
+                            <param id="0" name="Name">&quot;loadEvent&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="774225173321192">
             <conditions>
@@ -133,6 +217,62 @@
                     <param id="1" name="Value">1</param>
                 </action>
                 <action id="0" name="Set text" sid="798833126541710" type="displayfulfillvalue">
+                    <param id="0" name="Text">fulfillment</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="883360854130308">
+            <conditions>
+                <condition id="0" name="On function" sid="899481308524440" type="Function">
+                    <param id="0" name="Name">&quot;loadEvent&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <variable constant="0" name="randomEventNo" sid="597676666521218" static="0" type="number">0</variable>
+                <variable constant="0" name="randomEventText" sid="904110816494232" static="0" type="text"></variable>
+                <event-block sid="488139201184744">
+                    <conditions />
+                    <actions>
+                        <action id="-9" name="Set value" sid="364095252517621" type="System">
+                            <param id="0" name="Variable">randomEventNo</param>
+                            <param id="1" name="Value">floor(random(0,2))</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="867290099819375" type="System">
+                            <param id="0" name="Variable">deadline</param>
+                            <param id="1" name="Value">JSON.Value(0,randomEventNo,&quot;deadline&quot;)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="633679721833189" type="System">
+                            <param id="0" name="Variable">randomEventText</param>
+                            <param id="1" name="Value">JSON.Value(0,randomEventNo,&quot;text&quot;)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="253076900838190" type="eventText">
+                            <param id="0" name="Text">randomEventText</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="832187396673749">
+            <conditions>
+                <condition id="0" name="On function" sid="768500514088347" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="392739673547215" type="displaysleepvalue">
+                    <param id="0" name="Text">sleep</param>
+                </action>
+                <action id="0" name="Set text" sid="644845384908845" type="displaycleanvalue">
+                    <param id="0" name="Text">cleanliness</param>
+                </action>
+                <action id="0" name="Set text" sid="611431425475767" type="displayfoodvalue">
+                    <param id="0" name="Text">food</param>
+                </action>
+                <action id="0" name="Set text" sid="628458407970311" type="displaysocialvalue">
+                    <param id="0" name="Text">social</param>
+                </action>
+                <action id="0" name="Set text" sid="352093700535812" type="displayfulfillvalue">
                     <param id="0" name="Text">fulfillment</param>
                 </action>
             </actions>

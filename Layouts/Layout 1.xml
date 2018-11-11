@@ -183,50 +183,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="accept" uid="11">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1055</x>
-                        <y>601</y>
-                        <z>0</z>
-                        <width>114</width>
-                        <height>120</height>
-                        <depth>0</depth>
-                        <hotspotX>-2.026315689</hotspotX>
-                        <hotspotY>-1.875</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="reject" uid="13">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1293</x>
-                        <y>640</y>
-                        <z>0</z>
-                        <width>115</width>
-                        <height>120</height>
-                        <depth>0</depth>
-                        <hotspotX>-3.321739197</hotspotX>
-                        <hotspotY>-1.875</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="sleep" uid="14">
                     <properties>
                         <text>SLEEP</text>
@@ -542,6 +498,99 @@
                         <depth>0</depth>
                         <hotspotX>0.623076916</hotspotX>
                         <hotspotY>1.592057705</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="eventText" uid="24">
+                    <properties>
+                        <text>xxxx</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Noto Sans,-32,400,0</font>
+                        <color>75,75,75</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1338</x>
+                        <y>125</y>
+                        <z>0</z>
+                        <width>518</width>
+                        <height>583</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0.08726646</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="angryWork" uid="27">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>956</x>
+                        <y>339</y>
+                        <z>0</z>
+                        <width>655</width>
+                        <height>854</height>
+                        <depth>0</depth>
+                        <hotspotX>-0.430534363</hotspotX>
+                        <hotspotY>0.38173303</hotspotY>
+                        <angle>0.073932149</angle>
+                        <opacity>0</opacity>
+                    </world>
+                </instance>
+                <instance type="accept" uid="11">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1055</x>
+                        <y>601</y>
+                        <z>0</z>
+                        <width>114</width>
+                        <height>120</height>
+                        <depth>0</depth>
+                        <hotspotX>-2.026315689</hotspotX>
+                        <hotspotY>-1.875</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="reject" uid="13">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1293</x>
+                        <y>640</y>
+                        <z>0</z>
+                        <width>115</width>
+                        <height>120</height>
+                        <depth>0</depth>
+                        <hotspotX>-3.321739197</hotspotX>
+                        <hotspotY>-1.875</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
