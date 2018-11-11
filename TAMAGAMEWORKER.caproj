@@ -345,7 +345,7 @@
         <object-type name="sleepbar" sid="527623332057864">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="211329472181617" speed="5">
+                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="211329472181617" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\healthbar-1.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\healthbar-2.png" />
@@ -357,7 +357,7 @@
         <object-type name="cleanbar" sid="398104426763754">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="241998033211999" speed="5">
+                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="241998033211999" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\healthbar-1.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\healthbar-2.png" />
@@ -369,7 +369,7 @@
         <object-type name="foodbar" sid="408928234991067">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="479791581470622" speed="5">
+                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="479791581470622" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\healthbar-1.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\healthbar-2.png" />
@@ -381,7 +381,7 @@
         <object-type name="socialbar" sid="339327525603643">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="167489599305068" speed="5">
+                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="167489599305068" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\healthbar-1.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\healthbar-2.png" />
@@ -393,7 +393,7 @@
         <object-type name="fulfillmentbar" sid="550827958968276">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="616000291134702" speed="5">
+                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="616000291134702" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\healthbar-1.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\healthbar-2.png" />
