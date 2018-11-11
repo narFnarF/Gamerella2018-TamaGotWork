@@ -22,7 +22,7 @@
     "anim DONT": "stressed"
   },
   {
-    "text": "Dear Comrades, \n\nAs you all know, we are working tirelessly to negotiate better working conditions for our union members. We our counting on your participation at tonight’s general assembly to shake things up in the company. \n\nWorkers unite! Geeks unite!",
+    "text": "Dear Comrades, \n\nAs you all know, we are working tirelessly to negotiate better working conditions for our union members. We are counting on your participation at tonight’s general assembly to shake things up in the company. \n\nWorkers unite! Geeks unite!",
     "sleep": -2,
     "fulfillment": 2,
     "clean": -1,
@@ -44,7 +44,7 @@
     "anim DONT": "uncertain"
   },
   {
-    "text": "Guess what Gamers!? \n\nOur annual GAMEJAM is happening again this year, and it is bigger than ever! Meet your favorite geeks and play some new and exciting video games with us. All you need to do is RSVP now to save your spot and be part of the team. You game?",
+    "text": "Guess what Gamers!? \n\nOur annual GAMEJAM is happening again this year, and it's bigger than ever! Meet your favorite geeks and play some new and exciting video games with us. All you need to do is RSVP now to save your spot and be part of the team. You game?",
     "sleep": -4,
     "fulfillment": 1,
     "clean": 0,
@@ -55,7 +55,7 @@
     "anim DONT": "sad"
   },
   {
-    "text": "What’s up gang?! \n\nWhat an exhausting week at work hen? A bunch of us are leaving early to go out for drinks at the arcades tonight. It’s gonna be mega!!! Can’t wait to see you there, we deserve it.",
+    "text": "What’s up gang?! \n\nWhat an exhausting week at work huh? A bunch of us are leaving early to go out for drinks at the arcades tonight. It’s gonna be mega!!! Can’t wait to see you there, we deserve it.",
     "sleep": -2,
     "fulfillment": 1,
     "clean": -2,
@@ -88,7 +88,7 @@
     "anim DONT": "stressed"
   },
   {
-    "text": "Urgh. Tama, HELP! I can’t figure out how to fix this tiny glitch in my game’s code. Will you take a moment to show me how to fix it? You’re my only hope right now...",
+    "text": "Urgh. Tama, HELP! I can’t figure out how to fix this tiny glitch in my game code. Will you take a moment to show me how to fix it? You’re my only hope right now...",
     "sleep": 0,
     "fulfillment": 0,
     "clean": 0,
@@ -121,7 +121,7 @@
     "anim DONT": "stressed"
   },
   {
-    "text": "@GGoverlorD99 you’re video game SUCKS big time man. how can you show your shitty “portfolio” to any1. who wants to see that fucking shit? quit now loser. your mom sucks sucks cock dickhead.   ",
+    "text": "@GGoverlorD99 you’re video game SUCKS big time man. how can you show your shitty “portfolio” to any1. who wants to see that fucking shit? quit now loser. your mom sucks cock dickhead.   ",
     "sleep": -1,
     "fulfillment": 0,
     "clean": -2,
@@ -132,7 +132,7 @@
     "anim DONT": "sad"
   },
   {
-    "text": "Attention everyone, \n\nWe know it is friday afternoon, but we are asking all programmers to stay in late tonight for a debugging blitz. That way, we can all rest easy this weekend. We thank you for your understanding.    ",
+    "text": "Attention everyone, \n\nWe know it is friday afternoon, but we are asking all programmers to stay in late tonight for a debugging blitz. That way, we can all rest easy this weekend. Thank you for understanding.    ",
     "sleep": 0,
     "fulfillment": 1,
     "clean": -1,
@@ -154,7 +154,7 @@
     "anim DONT": "working"
   },
   {
-    "text": "Hello fellow creators, \n\nGreat news! We are inviting workers to playtest our new app for our next generation board game later this week. Anyone who can keep a secret is welcome to participate! Spots are limited, so reserve now. Can’t wait!   ",
+    "text": "Hello fellow creators, \n\nGreat news! We're inviting workers to playtest the new app for our board game later this week. Anyone who can keep a secret is welcome to participate. Spots are limited, so reserve now. See you there!   ",
     "sleep": -2,
     "fulfillment": 1,
     "clean": -2,
