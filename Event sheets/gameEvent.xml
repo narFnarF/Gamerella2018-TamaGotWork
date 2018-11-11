@@ -229,6 +229,23 @@
                     <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="226244777663314">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="939577505335328" type="System">
+                            <param id="0" name="Variable">sleep</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="568280311944161" type="System">
+                            <param id="0" name="Variable">fulfillment</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="774225173321192">
             <conditions>
@@ -259,6 +276,23 @@
                     <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="520647413009045">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="982771179527356" type="System">
+                            <param id="0" name="Variable">cleanliness</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="154840413988787" type="System">
+                            <param id="0" name="Variable">fulfillment</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="616499083214964">
             <conditions>
@@ -293,6 +327,23 @@
                     <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="684218052457772">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="300916307042784" type="System">
+                            <param id="0" name="Variable">food</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="992784461398596" type="System">
+                            <param id="0" name="Variable">fulfillment</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="746928093939664">
             <conditions>
@@ -327,6 +378,23 @@
                     <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="747677094858639">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="620486506185317" type="System">
+                            <param id="0" name="Variable">social</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="230090708873249" type="System">
+                            <param id="0" name="Variable">fulfillment</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="820925787248395">
             <conditions>
