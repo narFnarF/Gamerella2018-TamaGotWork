@@ -10,6 +10,8 @@
     <unique-id>882xt0r3fn2t</unique-id>
     <saved-with-version>26500</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Yann Granjon" id="JSON" version="1">JSON</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
@@ -44,15 +46,101 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type global="1" name="JSON" sid="412236783497792">
-            <plugin id="JSON" />
-        </object-type>
-        <object-type name="Keyboard" sid="387597658001799">
-            <plugin id="Keyboard" />
-        </object-type>
-        <object-type name="Mouse" sid="382043700345538">
-            <plugin id="Mouse" />
-        </object-type>
+        <object-folder name="plugins">
+            <object-type name="AJAX" sid="301318982563151">
+                <plugin id="AJAX" />
+            </object-type>
+            <object-type name="Function" sid="547395355188984">
+                <plugin id="Function" />
+            </object-type>
+            <object-type global="1" name="JSON" sid="412236783497792">
+                <plugin id="JSON" />
+            </object-type>
+            <object-type name="Mouse" sid="382043700345538">
+                <plugin id="Mouse" />
+            </object-type>
+            <object-type name="Keyboard" sid="387597658001799">
+                <plugin id="Keyboard" />
+            </object-type>
+        </object-folder>
+        <object-folder name="buttons">
+            <object-type name="accept" sid="898036249732988">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="224466493154842" speed="5">
+                        <frame duration="1" hotspotX="-2.02632" hotspotY="-1.875" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\accept.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="giveclean" sid="505850866998237">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="660244627870751" speed="5">
+                        <frame duration="1" hotspotX="0.888462" hotspotY="1.49819" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="givefood" sid="218703056519414">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="748142595596981" speed="5">
+                        <frame duration="1" hotspotX="0.496154" hotspotY="1.64982" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="givefulfill" sid="440634138173672">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="766631919102306" speed="5">
+                        <frame duration="1" hotspotX="0.742308" hotspotY="1.6065" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png">
+                            <collision-poly>
+                                <point x="0.0931688" y="0.718852" />
+                                <point x="0.744145" y="0" />
+                                <point x="1" y="0.718852" />
+                                <point x="1" y="1" />
+                                <point x="0.744145" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="givesleep" sid="487648450288906">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443382870377221" speed="5">
+                        <frame duration="1" hotspotX="0.623077" hotspotY="1.59206" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="givesocial" sid="560056253458035">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="512644328389897" speed="5">
+                        <frame duration="1" hotspotX="0.496154" hotspotY="1.40794" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.496154" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0.496154" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="reject" sid="250889371632431">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443968414705174" speed="5">
+                        <frame duration="1" hotspotX="-3.32174" hotspotY="-1.875" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\reject.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="tamagotcha" sid="188344699213731">
             <plugin id="Sprite" />
             <animation-folder>
@@ -88,66 +176,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="givesocial" sid="560056253458035">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="512644328389897" speed="5">
-                    <frame duration="1" hotspotX="0.496154" hotspotY="1.40794" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png">
-                        <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="0.496154" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                            <point x="0.496154" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="givesleep" sid="487648450288906">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443382870377221" speed="5">
-                    <frame duration="1" hotspotX="0.623077" hotspotY="1.59206" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="giveclean" sid="505850866998237">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="660244627870751" speed="5">
-                    <frame duration="1" hotspotX="0.888462" hotspotY="1.49819" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="givefood" sid="218703056519414">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="748142595596981" speed="5">
-                    <frame duration="1" hotspotX="0.496154" hotspotY="1.64982" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="givefulfill" sid="440634138173672">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="766631919102306" speed="5">
-                    <frame duration="1" hotspotX="0.742308" hotspotY="1.6065" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\button.png">
-                        <collision-poly>
-                            <point x="0.0931688" y="0.718852" />
-                            <point x="0.744145" y="0" />
-                            <point x="1" y="0.718852" />
-                            <point x="1" y="1" />
-                            <point x="0.744145" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="bossmessage" sid="765806571771563">
             <plugin id="Sprite" />
             <animation-folder>
@@ -160,22 +188,6 @@
                             <point x="0.00152672" y="0.381733" />
                         </collision-poly>
                     </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="accept" sid="898036249732988">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="224466493154842" speed="5">
-                    <frame duration="1" hotspotX="-2.02632" hotspotY="-1.875" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\accept.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="reject" sid="250889371632431">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443968414705174" speed="5">
-                    <frame duration="1" hotspotX="-3.32174" hotspotY="-1.875" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\reject.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -212,6 +224,24 @@
         <object-type name="displayfulfillvalue" sid="747362886292572">
             <plugin id="Text" />
         </object-type>
+        <object-type name="eventText" sid="696731978831328">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="angryWork" sid="122383782694499">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="735089418082501" speed="5">
+                    <frame duration="1" hotspotX="-0.430534" hotspotY="0.381733" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\Art Assets\angryWork.png">
+                        <collision-poly>
+                            <point x="0.70687" y="0.00117096" />
+                            <point x="0.998473" y="0.381733" />
+                            <point x="0.992366" y="0.981265" />
+                            <point x="0.00152672" y="0.381733" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -223,6 +253,8 @@
     <global-instances>
         <global-instance type="Keyboard" uid="1" />
         <global-instance type="Mouse" uid="2" />
+        <global-instance type="AJAX" uid="25" />
+        <global-instance type="Function" uid="26" />
     </global-instances>
     <sounds-folder />
     <music-folder />
@@ -235,5 +267,6 @@
             <file name="icon-256.png" />
             <file name="loading-logo.png" />
         </file-folder>
+        <file name="events.json" />
     </files-folder>
 </c2project>
