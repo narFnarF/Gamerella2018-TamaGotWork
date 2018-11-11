@@ -200,6 +200,10 @@
                     <param id="0" name="Name">&quot;worsePerformance&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="4" name="Set animation" sid="910534966158708" type="Sprite">
+                    <param id="0" name="Animation">&quot;sleep&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="774225173321192">
@@ -225,6 +229,10 @@
                 <action id="0" name="Call function" sid="970989839780352" type="Function">
                     <param id="0" name="Name">&quot;worsePerformance&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="4" name="Set animation" sid="833339379262848" type="Sprite">
+                    <param id="0" name="Animation">&quot;shower&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -252,6 +260,10 @@
                     <param id="0" name="Name">&quot;worsePerformance&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="4" name="Set animation" sid="901526884776214" type="Sprite">
+                    <param id="0" name="Animation">&quot;food&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="746928093939664">
@@ -278,6 +290,10 @@
                     <param id="0" name="Name">&quot;worsePerformance&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="4" name="Set animation" sid="292059742906270" type="Sprite">
+                    <param id="0" name="Animation">&quot;party&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="820925787248395">
@@ -303,6 +319,10 @@
                 <action id="0" name="Call function" sid="642434624199139" type="Function">
                     <param id="0" name="Name">&quot;worsePerformance&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="4" name="Set animation" sid="282645190983654" type="Sprite">
+                    <param id="0" name="Animation">&quot;veryhappy&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>

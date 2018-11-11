@@ -297,6 +297,10 @@
         <object-type name="Sprite" sid="977996806097348">
             <plugin id="Sprite" />
             <animation-folder>
+                <animation framecount="2" loop="1" name="working" pingpong="0" repeatcount="1" repeatto="0" sid="947683981333631" speed="3">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\working1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\working2.png" />
+                </animation>
                 <animation framecount="2" loop="1" name="happy" pingpong="0" repeatcount="1" repeatto="0" sid="593053754875669" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\happy1.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\happy2.png" />
@@ -310,9 +314,21 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\uncertain1.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\uncertain2.png" />
                 </animation>
-                <animation framecount="2" loop="1" name="working" pingpong="0" repeatcount="1" repeatto="0" sid="947683981333631" speed="6">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\working1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\working2.png" />
+                <animation framecount="2" loop="1" name="stressed" pingpong="0" repeatcount="1" repeatto="0" sid="583182385583734" speed="4">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\stressed1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\stressed2.png" />
+                </animation>
+                <animation framecount="2" loop="1" name="shower" pingpong="0" repeatcount="1" repeatto="0" sid="532683182287517" speed="16">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\shower1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\shower2.png" />
+                </animation>
+                <animation framecount="2" loop="1" name="veryhappy" pingpong="0" repeatcount="1" repeatto="0" sid="679086789615863" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\veryhappy1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\veryhappy2.png" />
+                </animation>
+                <animation framecount="2" loop="1" name="sleep" pingpong="0" repeatcount="1" repeatto="0" sid="703378793744366" speed="2">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\sleeping1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jessr\Documents\JEKA FILES\design work\Gamerella2018-TamaGotWork\ReadyAssets\sleeping2.png" />
                 </animation>
             </animation-folder>
         </object-type>
