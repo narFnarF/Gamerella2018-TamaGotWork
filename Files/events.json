@@ -1,35 +1,178 @@
 [
   {
-    "text": "Oh Tama, I almost forgot! Please have your video game character done before lunch. You’re the best.",
-    "sleep": 0,
-    "fulfillment": 1,
-    "clean": 0,
-    "social": 0,
-    "deadline": 2,
-    "food": "0",
-    "anim DO": "poker face",
-    "anim DONT": "stressed"
-  },
-  {
-    "text": "Hi there! This is event number 2!",
-    "sleep": 0,
-    "fulfillment": 1,
+    "text": "Oh Tama, I almost forgot! \n\nPlease have your video game character done before lunch. It would really help move things along for the 3D team. \n\nSincerely, Aki.",
+    "sleep": -1,
     "clean": 0,
     "social": 0,
     "deadline": 2,
     "food": 0,
-    "anim DO": "poker face",
+    "fulfillment": 1,
+    "anim DO": "stressed",
     "anim DONT": "stressed"
   },
   {
-    "text": "Whaaat?! Event number 3???!!",
+    "text": "Dear staff,\n \n\nWe are asking all of the game designers to review these documents ASAP. Thank you for your collaboration. \n\nThe administration team.\n",
+    "sleep": 0,
+    "clean": 0,
+    "social": -1,
+    "deadline": 2,
+    "food": -2,
+    "fulfillment": 1,
+    "anim DO": "working",
+    "anim DONT": "stressed"
+  },
+  {
+    "text": "Dear Comrades, \n\nAs you all know, we are working tirelessly to negotiate better working conditions for our union members. We our counting on your participation at tonight’s general assembly to shake things up in the company. \n\nWorkers unite! Geeks unite!",
+    "sleep": -2,
+    "fulfillment": 2,
+    "clean": -1,
+    "social": 2,
+    "deadline": 1,
+    "food": -2,
+    "anim DO": "uncertain",
+    "anim DONT": "stressed"
+  },
+  {
+    "text": "ALERT! ERROR_BUG_NOT_RESOLVED \n\nPlease review content. \n",
+    "sleep": -2,
+    "fulfillment": 1,
+    "clean": 0,
+    "social": -1,
+    "deadline": 2,
+    "food": 0,
+    "anim DO": "uncertain",
+    "anim DONT": "uncertain"
+  },
+  {
+    "text": "Guess what Gamers!? \n\nOur annual GAMEJAM is happening again this year, and it is bigger than ever! Meet your favorite geeks and play some new and exciting video games with us. All you need to do is RSVP now to save your spot and be part of the team. You game?",
+    "sleep": -4,
+    "fulfillment": 1,
+    "clean": 0,
+    "social": 2,
+    "deadline": 1,
+    "food": 0,
+    "anim DO": "veryhappy",
+    "anim DONT": "sad"
+  },
+  {
+    "text": "What’s up gang?! \n\nWhat an exhausting week at work hen? A bunch of us are leaving early to go out for drinks at the arcades tonight. It’s gonna be mega!!! Can’t wait to see you there, we deserve it.",
+    "sleep": -2,
+    "fulfillment": 1,
+    "clean": -2,
+    "social": 2,
+    "deadline": 1,
+    "food": 0,
+    "anim DO": "happy",
+    "anim DONT": "working"
+  },
+  {
+    "text": "Hi cutie! I was just thinking about how much I like you and I miss your cute face. I know how busy you are right now… but could you send me a quick selfie? XOX \n",
+    "sleep": -2,
+    "fulfillment": 1,
+    "clean": 0,
+    "social": 1,
+    "deadline": 2,
+    "food": -2,
+    "anim DO": "veryhappy",
+    "anim DONT": "sad"
+  },
+  {
+    "text": "Tama! How’s my favorite team member? \n\nListen, I’ve just learned that we’ll be needing that prototype sooner than we thought. You don’t mind doing a little overtime this saturday do you? \n\nThank you, Aki.",
+    "sleep": 0,
+    "fulfillment": 1,
+    "clean": 0,
+    "social": -3,
+    "deadline": 2,
+    "food": 0,
+    "anim DO": "sad",
+    "anim DONT": "stressed"
+  },
+  {
+    "text": "Urgh. Tama, HELP! I can’t figure out how to fix this tiny glitch in my game’s code. Will you take a moment to show me how to fix it? You’re my only hope right now...",
+    "sleep": 0,
+    "fulfillment": 0,
+    "clean": 0,
+    "social": 3,
+    "deadline": 3,
+    "food": 0,
+    "anim DO": "uncertain",
+    "anim DONT": "working"
+  },
+  {
+    "text": "Tama, \n\nI’m still waiting for the changes to the main character to be done. I’m expecting you to get it ready at the same time as the rest of your daily work. \n\nAki.  ",
     "sleep": 0,
     "fulfillment": 1,
     "clean": 0,
     "social": 0,
+    "deadline": 1,
+    "food": -2,
+    "anim DO": "stressed",
+    "anim DONT": "stressed"
+  },
+  {
+    "text": "Hello Tama, \n\nRegarding the coding changes we discussed in your last performance meeting, we’re going to need you to get does done first thing tomorrow morning. I’m counting on you, the whole team is! \n\nSincerely, Aki.     ",
+    "sleep": -3,
+    "fulfillment": 3,
+    "clean": -1,
+    "social": 0,
+    "deadline": 1,
+    "food": 0,
+    "anim DO": "working",
+    "anim DONT": "stressed"
+  },
+  {
+    "text": "@GGoverlorD99 you’re video game SUCKS big time man. how can you show your shitty “portfolio” to any1. who wants to see that fucking shit? quit now loser. your mom sucks sucks cock dickhead.   ",
+    "sleep": -1,
+    "fulfillment": 0,
+    "clean": -2,
+    "social": 0,
+    "deadline": 4,
+    "food": -1,
+    "anim DO": "sad",
+    "anim DONT": "sad"
+  },
+  {
+    "text": "Attention everyone, \n\nWe know it is friday afternoon, but we are asking all programmers to stay in late tonight for a debugging blitz. That way, we can all rest easy this weekend. We thank you for your understanding.    ",
+    "sleep": 0,
+    "fulfillment": 1,
+    "clean": -1,
+    "social": 0,
+    "deadline": 2,
+    "food": -2,
+    "anim DO": "working",
+    "anim DONT": "stressed"
+  },
+  {
+    "text": "Dear staff, \n\nAn important presentation will be held by the accounting team this afternoon. We ask that all workers take time from their busy schedule to attend. \n\nThank you, \nThe administration team.   ",
+    "sleep": 0,
+    "fulfillment": 1,
+    "clean": 0,
+    "social": 0,
+    "deadline": 1,
+    "food": 0,
+    "anim DO": "working",
+    "anim DONT": "working"
+  },
+  {
+    "text": "Hello fellow creators, \n\nGreat news! We are inviting workers to playtest our new app for our next generation board game later this week. Anyone who can keep a secret is welcome to participate! Spots are limited, so reserve now. Can’t wait!   ",
+    "sleep": -2,
+    "fulfillment": 1,
+    "clean": -2,
+    "social": 1,
     "deadline": 2,
     "food": 0,
-    "anim DO": "poker face",
-    "anim DONT": "stressed"
+    "anim DO": "happy",
+    "anim DONT": "sad"
+  },
+  {
+    "text": "Good morning dream team, \n\nPlease note that there will be a group meeting regarding the Christmas party during lunch today. We can’t wait to hear about your ideas! \n\nBest wishes, The HR team.  ",
+    "sleep": 0,
+    "fulfillment": 1,
+    "clean": 0,
+    "social": 0,
+    "deadline": 1,
+    "food": 0,
+    "anim DO": "uncertain",
+    "anim DONT": "working"
   }
 ]
