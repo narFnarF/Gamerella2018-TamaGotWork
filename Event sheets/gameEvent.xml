@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>gameEvent</name>
+    <events>
+        <variable constant="0" name="angryWorkOpacity" sid="565202632830572" static="0" type="number">0</variable>
+        <variable constant="0" name="deadline" sid="106578298923645" static="0" type="number">0</variable>
+        <variable constant="0" name="work" sid="983823163449071" static="0" type="number">0</variable>
+        <variable constant="0" name="cleanliness" sid="912841014820320" static="0" type="number">0</variable>
+        <variable constant="0" name="social" sid="225827076094267" static="0" type="number">0</variable>
+        <variable constant="0" name="food" sid="281161880473773" static="0" type="number">0</variable>
+        <variable constant="0" name="randomEventNo" sid="597676666521218" static="0" type="number">0</variable>
+        <variable constant="0" name="fulfillment" sid="486535009881466" static="0" type="number">0</variable>
+        <variable constant="0" name="sleep" sid="536152450353246" static="0" type="number">0</variable>
+        <event-block sid="371682292473829">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="879658418541219" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="361840695107937" type="System">
+                    <param id="0" name="Variable">work</param>
+                    <param id="1" name="Value">100</param>
+                </action>
+                <action id="-9" name="Set value" sid="139521597802856" type="System">
+                    <param id="0" name="Variable">cleanliness</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+                <action id="-9" name="Set value" sid="966693688805792" type="System">
+                    <param id="0" name="Variable">food</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+                <action id="-9" name="Set value" sid="570563910414584" type="System">
+                    <param id="0" name="Variable">sleep</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+                <action id="-9" name="Set value" sid="634164197937283" type="System">
+                    <param id="0" name="Variable">social</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+                <action id="-9" name="Set value" sid="688065057523770" type="System">
+                    <param id="0" name="Variable">fulfillment</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="995814114509860">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="423758286296765" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">CREDITS</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="766667582126384" type="System">
+                    <param id="0" name="Layout">credits</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="436173182685143">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="610280648729902" type="System" />
+            </conditions>
+            <actions>
+                <action id="1" name="Request project file" sid="797428083026511" type="AJAX">
+                    <param id="0" name="Tag">&quot;eventlist&quot;</param>
+                    <param id="1" name="File">events.json</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Anything JSON dependent has to happen after AJAX loads the JSON file in the next event ;)</comment>
+        <event-block sid="189160140265276">
+            <conditions>
+                <condition id="0" name="On completed" sid="929516950525353" type="AJAX">
+                    <param id="0" name="Tag">&quot;eventlist&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="60" name="LoadJSON" sid="766568525239524" type="JSON">
+                    <param id="0" name="JSON">AJAX.LastData</param>
+                    <param id="1" name="Reference point">0</param>
+                    <param id="2" name="Key {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="532857499951357" type="Function">
+                    <param id="0" name="Name">&quot;loadEvent&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="563713130967236" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="192276555391094">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="991954583647094" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">accept</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="629923971811029" type="Function">
+                    <param id="0" name="Name">&quot;tallyWorkCost&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="264588034399657" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="772658555111816" type="Function">
+                    <param id="0" name="Name">&quot;loadEvent&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-11" name="Subtract from" sid="346164167053502" type="System">
+                    <param id="0" name="Variable">angryWorkOpacity</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="614793242117300" type="angryWork">
+                    <param id="0" name="Opacity">angryWorkOpacity</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="344458512889139">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="745830091316143" type="System">
+                            <param id="0" name="Variable">work</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="843604124518169" type="System">
+                            <param id="0" name="Variable">work</param>
+                            <param id="1" name="Value">8</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="199816519124161">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="399994479191555" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">reject</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="900130472703994" type="System">
+                    <param id="0" name="Variable">work</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+                <action id="-11" name="Subtract from" sid="877188562621743" type="System">
+                    <param id="0" name="Variable">fulfillment</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Call function" sid="598017375993603" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="409530783687153" type="Function">
+                    <param id="0" name="Name">&quot;loadEvent&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-10" name="Add to" sid="247730764513763" type="System">
+                    <param id="0" name="Variable">angryWorkOpacity</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="846356188458888" type="angryWork">
+                    <param id="0" name="Opacity">angryWorkOpacity</param>
+                </action>
+                <action id="4" name="Set animation" sid="499180408472355" type="Sprite">
+                    <param id="0" name="Animation">JSON.Value(0,randomEventNo,&quot;anim DONT&quot;)</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="922539283801310">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="462161255840310" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">givesleep</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="653392194942105" type="System">
+                    <param id="0" name="Variable">sleep</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Call function" sid="814711452233991" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Set text" sid="669147319913624" type="displaysleepvalue">
+                    <param id="0" name="Text">sleep</param>
+                </action>
+                <action id="0" name="Call function" sid="554606049163043" type="Function">
+                    <param id="0" name="Name">&quot;worsePerformance&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="774225173321192">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="632141396238583" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">giveclean</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="478090892019031" type="System">
+                    <param id="0" name="Variable">cleanliness</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Call function" sid="713962117607676" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Set text" sid="347758675317106" type="displaycleanvalue">
+                    <param id="0" name="Text">cleanliness</param>
+                </action>
+                <action id="0" name="Call function" sid="970989839780352" type="Function">
+                    <param id="0" name="Name">&quot;worsePerformance&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="616499083214964">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="133596502711028" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">givefood</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="113514159709491" type="System">
+                    <param id="0" name="Variable">food</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Call function" sid="310817706216124" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Set text" sid="423445605355330" type="displayfoodvalue">
+                    <param id="0" name="Text">food</param>
+                </action>
+                <action id="0" name="Call function" sid="891918681414492" type="Function">
+                    <param id="0" name="Name">&quot;worsePerformance&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="746928093939664">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="931924510381633" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">givesocial</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="637981516344291" type="System">
+                    <param id="0" name="Variable">social</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Call function" sid="660893978273773" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Set text" sid="124759888306172" type="displaysocialvalue">
+                    <param id="0" name="Text">social</param>
+                </action>
+                <action id="0" name="Call function" sid="453673839567405" type="Function">
+                    <param id="0" name="Name">&quot;worsePerformance&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="820925787248395">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="329823578452203" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">givefulfill</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="660532488894159" type="System">
+                    <param id="0" name="Variable">fulfillment</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Call function" sid="131147487779595" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Set text" sid="798833126541710" type="displayfulfillvalue">
+                    <param id="0" name="Text">fulfillment</param>
+                </action>
+                <action id="0" name="Call function" sid="642434624199139" type="Function">
+                    <param id="0" name="Name">&quot;worsePerformance&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="883360854130308">
+            <conditions>
+                <condition id="0" name="On function" sid="899481308524440" type="Function">
+                    <param id="0" name="Name">&quot;loadEvent&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <variable constant="0" name="randomEventText" sid="904110816494232" static="0" type="text"></variable>
+                <event-block sid="488139201184744">
+                    <conditions />
+                    <actions>
+                        <action id="-9" name="Set value" sid="364095252517621" type="System">
+                            <param id="0" name="Variable">randomEventNo</param>
+                            <param id="1" name="Value">floor(random(0,2))</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="867290099819375" type="System">
+                            <param id="0" name="Variable">deadline</param>
+                            <param id="1" name="Value">JSON.Value(0,randomEventNo,&quot;deadline&quot;)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="633679721833189" type="System">
+                            <param id="0" name="Variable">randomEventText</param>
+                            <param id="1" name="Value">JSON.Value(0,randomEventNo,&quot;text&quot;)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="253076900838190" type="eventText">
+                            <param id="0" name="Text">randomEventText</param>
+                        </action>
+                        <action id="0" name="Set text" sid="356719396939016" type="CL">
+                            <param id="0" name="Text">&quot;CL &quot; &amp; JSON.Value(0,randomEventNo,&quot;clean&quot;)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="851617429990684" type="FD">
+                            <param id="0" name="Text">&quot;FD &quot; &amp; JSON.Value(0,randomEventNo,&quot;food&quot;)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="229222323590059" type="FL">
+                            <param id="0" name="Text">&quot;FL &quot; &amp; JSON.Value(0,randomEventNo,&quot;fulfillment&quot;)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="433707816176940" type="SL">
+                            <param id="0" name="Text">&quot;SL &quot; &amp; JSON.Value(0,randomEventNo,&quot;sleep&quot;)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="803473849277087" type="SO">
+                            <param id="0" name="Text">&quot;SO &quot; &amp; JSON.Value(0,randomEventNo,&quot;social&quot;)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="832187396673749">
+            <conditions>
+                <condition id="0" name="On function" sid="768500514088347" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="617751458806680" type="System">
+                    <param id="0" name="Variable">sleep</param>
+                    <param id="1" name="Value">clamp(sleep, 0, 4)</param>
+                </action>
+                <action id="-9" name="Set value" sid="472195794947315" type="System">
+                    <param id="0" name="Variable">cleanliness</param>
+                    <param id="1" name="Value">clamp(cleanliness, 0, 4)</param>
+                </action>
+                <action id="-9" name="Set value" sid="872173582824499" type="System">
+                    <param id="0" name="Variable">food</param>
+                    <param id="1" name="Value">clamp(food, 0, 4)</param>
+                </action>
+                <action id="-9" name="Set value" sid="875603607962847" type="System">
+                    <param id="0" name="Variable">social</param>
+                    <param id="1" name="Value">clamp(social, 0, 4)</param>
+                </action>
+                <action id="-9" name="Set value" sid="633550214858733" type="System">
+                    <param id="0" name="Variable">fulfillment</param>
+                    <param id="1" name="Value">clamp(fulfillment, 0, 4)</param>
+                </action>
+                <action id="0" name="Set text" sid="392739673547215" type="displaysleepvalue">
+                    <param id="0" name="Text">sleep</param>
+                </action>
+                <action id="0" name="Set text" sid="644845384908845" type="displaycleanvalue">
+                    <param id="0" name="Text">cleanliness</param>
+                </action>
+                <action id="0" name="Set text" sid="611431425475767" type="displayfoodvalue">
+                    <param id="0" name="Text">food</param>
+                </action>
+                <action id="0" name="Set text" sid="628458407970311" type="displaysocialvalue">
+                    <param id="0" name="Text">social</param>
+                </action>
+                <action id="0" name="Set text" sid="352093700535812" type="displayfulfillvalue">
+                    <param id="0" name="Text">fulfillment</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="490177117273856">
+            <conditions>
+                <condition id="0" name="On function" sid="627148754954262" type="Function">
+                    <param id="0" name="Name">&quot;worsePerformance&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="606347990084679">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="144509306800073" type="System">
+                            <param id="0" name="Variable">deadline</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="510667488531393" type="System">
+                            <param id="0" name="Variable">deadline</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="986708633773409">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="417573406375993" type="System">
+                            <param id="0" name="Variable">deadline</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="468808688691757" type="System">
+                            <param id="0" name="Variable">work</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                        <action id="0" name="Call function" sid="609424050338596" type="Function">
+                            <param id="0" name="Name">&quot;loadEvent&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-10" name="Add to" sid="621872885703050" type="System">
+                            <param id="0" name="Variable">angryWorkOpacity</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="719038429609494" type="System">
+                            <param id="0" name="Variable">fulfillment</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="461038879469317" type="Function">
+                            <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="456715929191759" type="angryWork">
+                            <param id="0" name="Opacity">angryWorkOpacity</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="755857022508601" type="Sprite">
+                            <param id="0" name="Animation">JSON.Value(0,randomEventNo,&quot;anim DONT&quot;)</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="589207945420152">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="506264314525688" type="System">
+                                    <param id="0" name="Variable">work</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="834124883342112" type="System">
+                                    <param id="0" name="Layout">lose</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="597312041245587">
+            <conditions>
+                <condition id="0" name="On function" sid="214691318032260" type="Function">
+                    <param id="0" name="Name">&quot;tallyWorkCost&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="878905181466843" type="System">
+                    <param id="0" name="Variable">cleanliness</param>
+                    <param id="1" name="Value">JSON.Value(0,randomEventNo,&quot;clean&quot;)</param>
+                </action>
+                <action id="-10" name="Add to" sid="475500812571213" type="System">
+                    <param id="0" name="Variable">fulfillment</param>
+                    <param id="1" name="Value">JSON.Value(0,randomEventNo,&quot;fulfillment&quot;)</param>
+                </action>
+                <action id="-10" name="Add to" sid="924116590116243" type="System">
+                    <param id="0" name="Variable">sleep</param>
+                    <param id="1" name="Value">JSON.Value(0,randomEventNo,&quot;sleep&quot;)</param>
+                </action>
+                <action id="-10" name="Add to" sid="351998388307788" type="System">
+                    <param id="0" name="Variable">food</param>
+                    <param id="1" name="Value">JSON.Value(0,randomEventNo,&quot;food&quot;)</param>
+                </action>
+                <action id="-10" name="Add to" sid="791710908991050" type="System">
+                    <param id="0" name="Variable">social</param>
+                    <param id="1" name="Value">JSON.Value(0,randomEventNo,&quot;social&quot;)</param>
+                </action>
+                <action id="4" name="Set animation" sid="199228447505826" type="Sprite">
+                    <param id="0" name="Animation">JSON.Value(0,randomEventNo,&quot;anim DO&quot;)</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
