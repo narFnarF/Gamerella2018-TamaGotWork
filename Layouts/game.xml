@@ -504,7 +504,7 @@
                 </instance>
                 <instance type="eventText" uid="24">
                     <properties>
-                        <text>xxxx</text>
+                        <text>Hey, remember to check your email this week!</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Noto Sans,-32,400,0</font>
                         <color>75,75,75</color>
