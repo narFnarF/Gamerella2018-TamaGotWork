@@ -270,6 +270,30 @@
         <object-type name="PressRToRestart" sid="182077426459696">
             <plugin id="Text" />
         </object-type>
+        <object-type name="AddressNeed" sid="224676808309716">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="answerRequest" sid="408701489352452">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="CL" sid="803392967534692">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="SL" sid="133973583310552">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="FD" sid="196415214362278">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="SO" sid="926997101149702">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="FL" sid="739679162112595">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text" sid="175640433491796">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
