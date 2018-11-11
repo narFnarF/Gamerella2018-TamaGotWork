@@ -319,7 +319,7 @@
                     <param id="1" name="Parameter {n}"></param>
                 </action>
                 <action id="4" name="Set animation" sid="292059742906270" type="Tama">
-                    <param id="0" name="Animation">&quot;veryhappy&quot;</param>
+                    <param id="0" name="Animation">&quot;party&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
                 <action id="0" name="Call function" sid="660893978273773" type="Function">
@@ -376,7 +376,7 @@
                     <actions>
                         <action id="-9" name="Set value" sid="364095252517621" type="System">
                             <param id="0" name="Variable">randomEventNo</param>
-                            <param id="1" name="Value">floor(random(0,15))</param>
+                            <param id="1" name="Value">floor(random(0,16))</param>
                         </action>
                         <action id="-9" name="Set value" sid="867290099819375" type="System">
                             <param id="0" name="Variable">deadline</param>
