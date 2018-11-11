@@ -9,6 +9,7 @@
         <variable constant="0" name="cleanliness" sid="912841014820320" static="0" type="number">0</variable>
         <variable constant="0" name="social" sid="225827076094267" static="0" type="number">0</variable>
         <variable constant="0" name="food" sid="281161880473773" static="0" type="number">0</variable>
+        <variable constant="0" name="randomEventNo" sid="597676666521218" static="0" type="number">0</variable>
         <variable constant="0" name="fulfillment" sid="486535009881466" static="0" type="number">0</variable>
         <variable constant="0" name="sleep" sid="536152450353246" static="0" type="number">0</variable>
         <event-block sid="371682292473829">
@@ -22,23 +23,37 @@
                 </action>
                 <action id="-9" name="Set value" sid="139521597802856" type="System">
                     <param id="0" name="Variable">cleanliness</param>
-                    <param id="1" name="Value">5</param>
+                    <param id="1" name="Value">4</param>
                 </action>
                 <action id="-9" name="Set value" sid="966693688805792" type="System">
                     <param id="0" name="Variable">food</param>
-                    <param id="1" name="Value">5</param>
+                    <param id="1" name="Value">4</param>
                 </action>
                 <action id="-9" name="Set value" sid="570563910414584" type="System">
                     <param id="0" name="Variable">sleep</param>
-                    <param id="1" name="Value">5</param>
+                    <param id="1" name="Value">4</param>
                 </action>
                 <action id="-9" name="Set value" sid="634164197937283" type="System">
                     <param id="0" name="Variable">social</param>
-                    <param id="1" name="Value">5</param>
+                    <param id="1" name="Value">4</param>
                 </action>
                 <action id="-9" name="Set value" sid="688065057523770" type="System">
                     <param id="0" name="Variable">fulfillment</param>
-                    <param id="1" name="Value">5</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="995814114509860">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="423758286296765" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">CREDITS</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="766667582126384" type="System">
+                    <param id="0" name="Layout">credits</param>
                 </action>
             </actions>
         </event-block>
@@ -84,7 +99,24 @@
                     <param id="2" name="Object clicked">accept</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="0" name="Call function" sid="629923971811029" type="Function">
+                    <param id="0" name="Name">&quot;tallyWorkCost&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="843540391374392" type="Function">
+                    <param id="0" name="Name">&quot;capVitals&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="264588034399657" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="772658555111816" type="Function">
+                    <param id="0" name="Name">&quot;loadEvent&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
         </event-block>
         <event-block sid="199816519124161">
             <conditions>
@@ -94,7 +126,28 @@
                     <param id="2" name="Object clicked">reject</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-11" name="Subtract from" sid="900130472703994" type="System">
+                    <param id="0" name="Variable">work</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+                <action id="-11" name="Subtract from" sid="877188562621743" type="System">
+                    <param id="0" name="Variable">fulfillment</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Call function" sid="982943942389363" type="Function">
+                    <param id="0" name="Name">&quot;capVitals&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="598017375993603" type="Function">
+                    <param id="0" name="Name">&quot;updateTextBoxes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="409530783687153" type="Function">
+                    <param id="0" name="Name">&quot;loadEvent&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
         </event-block>
         <event-block sid="922539283801310">
             <conditions>
@@ -108,6 +161,10 @@
                 <action id="-10" name="Add to" sid="653392194942105" type="System">
                     <param id="0" name="Variable">sleep</param>
                     <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Call function" sid="233142818661378" type="Function">
+                    <param id="0" name="Name">&quot;capVitals&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
                 <action id="0" name="Set text" sid="669147319913624" type="displaysleepvalue">
                     <param id="0" name="Text">sleep</param>
@@ -131,6 +188,10 @@
                     <param id="0" name="Variable">cleanliness</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="0" name="Call function" sid="174910394014728" type="Function">
+                    <param id="0" name="Name">&quot;capVitals&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
                 <action id="0" name="Set text" sid="347758675317106" type="displaycleanvalue">
                     <param id="0" name="Text">cleanliness</param>
                 </action>
@@ -152,6 +213,10 @@
                 <action id="-10" name="Add to" sid="113514159709491" type="System">
                     <param id="0" name="Variable">food</param>
                     <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Call function" sid="216046484254309" type="Function">
+                    <param id="0" name="Name">&quot;capVitals&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
                 <action id="0" name="Set text" sid="423445605355330" type="displayfoodvalue">
                     <param id="0" name="Text">food</param>
@@ -175,6 +240,10 @@
                     <param id="0" name="Variable">social</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="0" name="Call function" sid="382613304998287" type="Function">
+                    <param id="0" name="Name">&quot;capVitals&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
                 <action id="0" name="Set text" sid="124759888306172" type="displaysocialvalue">
                     <param id="0" name="Text">social</param>
                 </action>
@@ -197,6 +266,10 @@
                     <param id="0" name="Variable">fulfillment</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="0" name="Call function" sid="849792318490178" type="Function">
+                    <param id="0" name="Name">&quot;capVitals&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
                 <action id="0" name="Set text" sid="798833126541710" type="displayfulfillvalue">
                     <param id="0" name="Text">fulfillment</param>
                 </action>
@@ -214,7 +287,6 @@
             </conditions>
             <actions />
             <sub-events>
-                <variable constant="0" name="randomEventNo" sid="597676666521218" static="0" type="number">0</variable>
                 <variable constant="0" name="randomEventText" sid="904110816494232" static="0" type="text"></variable>
                 <event-block sid="488139201184744">
                     <conditions />
@@ -268,7 +340,12 @@
                     <param id="0" name="Name">&quot;worsePerformance&quot;</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="0" name="Call function" sid="244554979790223" type="Function">
+                    <param id="0" name="Name">&quot;capVitals&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
             <sub-events>
                 <event-block sid="606347990084679">
                     <conditions>
@@ -296,7 +373,7 @@
                     <actions>
                         <action id="-11" name="Subtract from" sid="468808688691757" type="System">
                             <param id="0" name="Variable">work</param>
-                            <param id="1" name="Value">5</param>
+                            <param id="1" name="Value">10</param>
                         </action>
                         <action id="0" name="Call function" sid="609424050338596" type="Function">
                             <param id="0" name="Name">&quot;loadEvent&quot;</param>
@@ -304,11 +381,15 @@
                         </action>
                         <action id="-10" name="Add to" sid="621872885703050" type="System">
                             <param id="0" name="Variable">angryWorkOpacity</param>
-                            <param id="1" name="Value">5</param>
+                            <param id="1" name="Value">2</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="719038429609494" type="System">
                             <param id="0" name="Variable">fulfillment</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="208367330806911" type="Function">
+                            <param id="0" name="Name">&quot;capVitals&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
                         </action>
                         <action id="-16" name="Set opacity" sid="456715929191759" type="angryWork">
                             <param id="0" name="Opacity">angryWorkOpacity</param>
@@ -325,11 +406,156 @@
                             </conditions>
                             <actions>
                                 <action id="-2" name="Go to layout" sid="834124883342112" type="System">
-                                    <param id="0" name="Layout">game</param>
+                                    <param id="0" name="Layout">lose</param>
                                 </action>
                             </actions>
                         </event-block>
                     </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="597312041245587">
+            <conditions>
+                <condition id="0" name="On function" sid="214691318032260" type="Function">
+                    <param id="0" name="Name">&quot;tallyWorkCost&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="878905181466843" type="System">
+                    <param id="0" name="Variable">cleanliness</param>
+                    <param id="1" name="Value">JSON.Value(0,randomEventNo,&quot;clean&quot;)</param>
+                </action>
+                <action id="-10" name="Add to" sid="475500812571213" type="System">
+                    <param id="0" name="Variable">fulfillment</param>
+                    <param id="1" name="Value">JSON.Value(0,randomEventNo,&quot;fulfillment&quot;)</param>
+                </action>
+                <action id="-10" name="Add to" sid="924116590116243" type="System">
+                    <param id="0" name="Variable">sleep</param>
+                    <param id="1" name="Value">JSON.Value(0,randomEventNo,&quot;sleep&quot;)</param>
+                </action>
+                <action id="-10" name="Add to" sid="351998388307788" type="System">
+                    <param id="0" name="Variable">food</param>
+                    <param id="1" name="Value">JSON.Value(0,randomEventNo,&quot;food&quot;)</param>
+                </action>
+                <action id="-10" name="Add to" sid="791710908991050" type="System">
+                    <param id="0" name="Variable">social</param>
+                    <param id="1" name="Value">JSON.Value(0,randomEventNo,&quot;social&quot;)</param>
+                </action>
+                <action id="0" name="Call function" sid="836852642036351" type="Function">
+                    <param id="0" name="Name">&quot;capVitals&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="463143823755688">
+            <conditions>
+                <condition id="0" name="On function" sid="646783246330728" type="Function">
+                    <param id="0" name="Name">&quot;capVitals&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="794532228672072">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="621521007910197" type="System">
+                            <param id="0" name="Variable">cleanliness</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="948873250587925" type="System">
+                            <param id="0" name="Variable">food</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="991909990275985" type="System">
+                            <param id="0" name="Variable">fulfillment</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="750130647314548" type="System">
+                            <param id="0" name="Variable">sleep</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="800889230499820" type="System">
+                            <param id="0" name="Variable">social</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="376285299655396" type="System">
+                            <param id="0" name="Variable">cleanliness</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="982673055361898" type="System">
+                            <param id="0" name="Variable">food</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="226808290932950" type="System">
+                            <param id="0" name="Variable">fulfillment</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="497073246835063" type="System">
+                            <param id="0" name="Variable">sleep</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="195367503827344" type="System">
+                            <param id="0" name="Variable">social</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="798517262921075">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="569526750990762" type="System">
+                            <param id="0" name="Variable">cleanliness</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="927502787927535" type="System">
+                            <param id="0" name="Variable">food</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="494830107785958" type="System">
+                            <param id="0" name="Variable">fulfillment</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="718207918826025" type="System">
+                            <param id="0" name="Variable">sleep</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="738529869559980" type="System">
+                            <param id="0" name="Variable">social</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="155601256724816" type="System">
+                            <param id="0" name="Variable">cleanliness</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="962619503374739" type="System">
+                            <param id="0" name="Variable">food</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="211047818156512" type="System">
+                            <param id="0" name="Variable">fulfillment</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="442812923524405" type="System">
+                            <param id="0" name="Variable">sleep</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="651068353487247" type="System">
+                            <param id="0" name="Variable">social</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-block>

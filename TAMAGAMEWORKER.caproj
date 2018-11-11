@@ -29,6 +29,7 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
+    <first-layout>game</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -241,6 +242,33 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="gwu" sid="799056683201393">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="endGameText" sid="365230545756072">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="by" sid="240596731023486">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ClickToStart" sid="687388892461549">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="JessMarcotte" sid="495209808377310">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="CatherineRobinson" sid="340253177261699">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="narF" sid="130199717419143">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="GAMERella2018" sid="362458670430969">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="PressRToRestart" sid="182077426459696">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />
