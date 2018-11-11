@@ -4,8 +4,8 @@
     <sid>861779698434223</sid>
     <event-sheet>creditsEvent</event-sheet>
     <size>
-        <width>1708</width>
-        <height>960</height>
+        <width>1920</width>
+        <height>1080</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -39,8 +39,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1452</x>
-                        <y>569</y>
+                        <x>1626</x>
+                        <y>658</y>
                         <z>0</z>
                         <width>477</width>
                         <height>607</height>
@@ -196,8 +196,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>661</x>
-                        <y>857</y>
+                        <x>762</x>
+                        <y>892</y>
                         <z>0</z>
                         <width>602</width>
                         <height>110</height>
@@ -223,8 +223,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>650</x>
-                        <y>803</y>
+                        <x>763</x>
+                        <y>821</y>
                         <z>0</z>
                         <width>608</width>
                         <height>106</height>

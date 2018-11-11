@@ -9,6 +9,9 @@
             </conditions>
             <actions>
                 <action id="-21" name="Reset global variables" sid="358568857373606" type="System" />
+                <action id="0" name="Set text" sid="250793167003880" type="instructions">
+                    <param id="0" name="Text">&quot;Ever wonder how people make your favourite video games? It turns out it’s not all play… long hours and crunch, unexpected bugs, the expectations of your boss and peers, and let&apos;s not forget all those last-minute requests. Guide Tama, the cutest Tamagotchi game dev you&apos;ll ever meet, through a day in the life of a video game worker trying to balance designing cool games while staying happy and healthy! Help Tama manage their time by:&#x0D;&#x0A;&#x0D;&#x0A;-- Answering requests on their phone&#x0D;&#x0A;-- Trying to meet their deadlines&#x0D;&#x0A;-- Making sure Tama eats, sleeps, and takes care of their needs&#x0D;&#x0A;-- Fighting for workers&apos; rights in the game industry&#x0D;&#x0A;&#x0D;&#x0A;Keep an eye on Tama&apos;s basic needs, but remember that your boss might not be happy if you don&apos;t keep up with their requests! &#x0D;&#x0A;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="959560210832310">

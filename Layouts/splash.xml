@@ -4,8 +4,8 @@
     <sid>216906931150455</sid>
     <event-sheet>splashEvent</event-sheet>
     <size>
-        <width>1708</width>
-        <height>960</height>
+        <width>1920</width>
+        <height>1080</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -39,8 +39,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>818</x>
-                        <y>221</y>
+                        <x>913</x>
+                        <y>161</y>
                         <z>0</z>
                         <width>1222</width>
                         <height>258</height>
@@ -66,8 +66,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>553</x>
-                        <y>361</y>
+                        <x>645</x>
+                        <y>269</y>
                         <z>0</z>
                         <width>624</width>
                         <height>136</height>
@@ -88,8 +88,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1548</x>
-                        <y>758</y>
+                        <x>1768</x>
+                        <y>850</y>
                         <z>0</z>
                         <width>228</width>
                         <height>274</height>
@@ -100,11 +100,11 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="49">
+                <instance type="instructions" uid="49">
                     <properties>
                         <text>[INSTRUCTIONS]</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Courier New,-42.8,400,0</font>
+                        <font>Courier New,-34.8,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -115,11 +115,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>132</x>
-                        <y>482</y>
+                        <x>93</x>
+                        <y>350</y>
                         <z>0</z>
-                        <width>1251</width>
-                        <height>427</height>
+                        <width>1522</width>
+                        <height>694</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

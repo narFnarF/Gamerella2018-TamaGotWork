@@ -291,7 +291,7 @@
         <object-type name="FL" sid="739679162112595">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Text" sid="175640433491796">
+        <object-type name="instructions" sid="175640433491796">
             <plugin id="Text" />
         </object-type>
         <object-type name="Tama" sid="977996806097348">
